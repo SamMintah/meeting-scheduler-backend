@@ -1,0 +1,21 @@
+{
+  "name": "meeting-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jest": "^27.0.0",
+    "luxon": "^3.5.0",
+    "nodemon": "^2.0.0"
+  }
+}
